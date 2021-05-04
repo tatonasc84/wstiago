@@ -1,0 +1,6 @@
+package decisao;
+
+public class Snippet {
+	float nota1 =  Float.parseFloat(JOptionPane.showInputDialog ("Digite a primeira nota"));
+}
+

@@ -1,0 +1,32 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DecisaoSimples {
+	
+	public static void main(String[] args) {
+		
+		
+		String disciplina = JOptionPane.showInputDialog("Digite o nome da disciplina").toUpperCase();
+		float nota1 =  Float.parseFloat(JOptionPane.showInputDialog ("Digite a primeira nota"));
+	
+		
+		float nota3 = (nota1+nota2)/2;
+		
+		if (nota3 >=6) {
+			System.out.println("PARABENS Voce foi aprovado na disciplina: " + disciplina);
+		}
+		
+		
+		System.out.println("Disciplina: " + disciplina); 
+		System.out.println("Sua nota media foi: " + nota3);
+		
+		
+		
+		
+		
+	}
+	
+		
+
+}

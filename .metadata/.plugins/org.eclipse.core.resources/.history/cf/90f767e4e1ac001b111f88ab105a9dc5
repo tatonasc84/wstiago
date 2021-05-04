@@ -1,0 +1,29 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DecisaoSimples {
+	
+	public static void main(String[] args) {
+		
+		
+		String disciplina = JOptionPane.showInputDialog("Digite o nome da disciplina").toUpperCase();
+		float nota1 =  Integer.parseInt(JOptionPane.showInputDialog ("Digite a primeira nota"));
+		float nota2 = Integer.parseInt(JOptionPane.showInputDialog ("Digite a segunda nota"));
+		float nota3 = (nota1+nota2)/2;
+		
+			
+		
+		
+		System.out.println("Disciplina: " + disciplina);
+		System.out.println("Media: " + nota3);
+		
+		
+		
+		
+		
+	}
+	
+		
+
+}
