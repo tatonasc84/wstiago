@@ -62,7 +62,7 @@ public class lista2Exercicios {
 		System.out.println("Simbolo usado / a resposta e :" + resposta);
 	}
 	}
-	FIM DO EXERCICIO 2*/
+	//FIM DO EXERCICIO 2
 	
 
 		
@@ -83,5 +83,7 @@ public class lista2Exercicios {
 
 }	
 
-
+*/
+	}
+}
 
