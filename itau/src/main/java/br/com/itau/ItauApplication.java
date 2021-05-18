@@ -8,6 +8,10 @@ public class ItauApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ItauApplication.class, args);
+		
+		
+		
+		
 	}
 
 }

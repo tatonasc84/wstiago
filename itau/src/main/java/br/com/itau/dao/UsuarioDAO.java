@@ -25,5 +25,9 @@ public interface UsuarioDAO extends CrudRepository<Usuario,Integer> {
 	 * - deleteAll(): apaga tudo
 	 * - count(): retorna qtos usuarios existem
 	 */
+	
+	
+	
+	
 
 }

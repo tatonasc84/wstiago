@@ -37,6 +37,8 @@ public class UsuarioController {
 		
 	}
 	
+	
+	
 
 	@PostMapping("/novousuario")
 	public Usuario add(@RequestBody Usuario objeto) {
