@@ -1,0 +1,110 @@
+   /*Criando estilos nativos com as tags do html*/
+   h1{
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(43, 226, 211);
+}
+
+p{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#035e2c;
+}
+
+body{
+    background-color:whitesmoke;
+}
+
+fieldset{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(92, 41, 5);
+}
+
+/*Criando estilos por classe*/
+.texto_final{
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:grey;
+}
+
+.menu{
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(99, 3, 3);
+}
+
+/* criando estilos de classses para os campos do formulario*/
+
+.campo_nome{
+position: relative;
+left: 15px;
+width: 250px;
+color: rgb(12, 27, 241);
+background-color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 12px;
+}
+
+.campo_email{
+    position: relative;
+    left: 15px;
+    width: 250px;
+    color: rgb(12, 27, 241);
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    }
+
+
+    .campo_senha{
+        position: relative;
+        left: 15px;
+        width: 250px;
+        color: rgb(12, 27, 241);
+        background-color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        }
+
+        .botao{
+            background-color: coral;
+            font-weight: bolder ;
+            color: navy;
+        }
+
+        /* eracao de classe de estilo para o Bootstrap*/
+        .container {
+            border: 3px solid white;
+            background-color:whitesmoke;
+            width:600px;
+            height: 600px;
+            /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+            /*font-size: 10px;*/
+
+        }
+
+        .container1 {
+            border: 3px solid white;
+            background-color:whitesmoke;
+            padding-left:300px;
+            width:520px;
+            height:640px;
+            align-content: center;
+
+        }
+
+
+        .div1{
+            background-color: yellow;
+        }
+        .div2{
+            background-color:green;
+        }
+        div3{
+            background-color:blue;
+        }
+        .div4{
+            background-color:red;
+        }
